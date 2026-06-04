@@ -1,0 +1,1033 @@
+{
+  "version": "feb2025",
+  "categories": {},
+  "brawlers": [
+    {
+      "name": "8-Bit",
+      "tier": "B",
+      "category": "",
+      "counters": [
+        "Penny",
+        "Brock",
+        "Squeak",
+        "Piper"
+      ]
+    },
+    {
+      "name": "Amber",
+      "tier": "A",
+      "category": "",
+      "counters": [
+        "Piper",
+        "Belle",
+        "Carl",
+        "Crow",
+        "Pam"
+      ]
+    },
+    {
+      "name": "Angelo",
+      "tier": "S",
+      "category": "",
+      "counters": [
+        "Kit",
+        "Max",
+        "Nani"
+      ]
+    },
+    {
+      "name": "Ash",
+      "tier": "S",
+      "category": "",
+      "counters": [
+        "Antitank",
+        "Rosa",
+        "Frank",
+        "Bull"
+      ]
+    },
+    {
+      "name": "Barley",
+      "tier": "A",
+      "category": "",
+      "counters": [
+        "Assasin",
+        "Mico",
+        "Kenji",
+        "Edgar",
+        "Mortis"
+      ]
+    },
+    {
+      "name": "Bea",
+      "tier": "B",
+      "category": "",
+      "counters": [
+        "Thrower",
+        "Piper",
+        "Nani",
+        "Mandy",
+        "Mr. P"
+      ]
+    },
+    {
+      "name": "Belle",
+      "tier": "A",
+      "category": "",
+      "counters": [
+        "Nani",
+        "Darryl",
+        "Piper"
+      ]
+    },
+    {
+      "name": "Berry",
+      "tier": "A",
+      "category": "",
+      "counters": [
+        "Assasin",
+        "Barley",
+        "Kenji",
+        "Mortis"
+      ]
+    },
+    {
+      "name": "Bibi",
+      "tier": "B",
+      "category": "",
+      "counters": [
+        "Surge",
+        "El Primo",
+        "Cordelius",
+        "Shelly"
+      ]
+    },
+    {
+      "name": "Bo",
+      "tier": "C",
+      "category": "",
+      "counters": [
+        "Sniper",
+        "Piper",
+        "Stu",
+        "Max",
+        "Leon"
+      ]
+    },
+    {
+      "name": "Bonnie",
+      "tier": "D",
+      "category": "",
+      "counters": [
+        "Piper",
+        "Darryl",
+        "R-T",
+        "Collete"
+      ]
+    },
+    {
+      "name": "Brock",
+      "tier": "B",
+      "category": "",
+      "counters": [
+        "Max",
+        "Nani",
+        "Piper",
+        "Mandy"
+      ]
+    },
+    {
+      "name": "Bull",
+      "tier": "C",
+      "category": "",
+      "counters": [
+        "Nita",
+        "Antitank"
+      ]
+    },
+    {
+      "name": "Buster",
+      "tier": "A",
+      "category": "",
+      "counters": [
+        "Rosa",
+        "Darryl",
+        "Jacky",
+        "Buzz",
+        "El Primo"
+      ]
+    },
+    {
+      "name": "Buzz",
+      "tier": "C",
+      "category": "",
+      "counters": [
+        "Surge",
+        "Gale",
+        "Jacky"
+      ]
+    },
+    {
+      "name": "Byron",
+      "tier": "S",
+      "category": "",
+      "counters": [
+        "Piper",
+        "Nani",
+        "Mandy",
+        "Sprout",
+        "Clancy",
+        "Lou"
+      ]
+    },
+    {
+      "name": "Carl",
+      "tier": "B",
+      "category": "",
+      "counters": [
+        "Buzz",
+        "Surge",
+        "Darryl",
+        "Jacky",
+        "Gene"
+      ]
+    },
+    {
+      "name": "Charlie",
+      "tier": "C",
+      "category": "",
+      "counters": [
+        "Penny",
+        "Larry",
+        "Juju"
+      ]
+    },
+    {
+      "name": "Chester",
+      "tier": "B",
+      "category": "",
+      "counters": [
+        "Janet",
+        "Amber",
+        "Stu",
+        "Gale"
+      ]
+    },
+    {
+      "name": "Chuck",
+      "tier": "C",
+      "category": "",
+      "counters": [
+        "Cordelius",
+        "Angelo",
+        "Clancy",
+        "Melodie"
+      ]
+    },
+    {
+      "name": "Clancy",
+      "tier": "C",
+      "category": "",
+      "counters": [
+        "Belle",
+        "Tara",
+        "Penny"
+      ]
+    },
+    {
+      "name": "Collete",
+      "tier": "A",
+      "category": "",
+      "counters": [
+        "Belle",
+        "Stu",
+        "Bea",
+        "Griff",
+        "Jessie"
+      ]
+    },
+    {
+      "name": "Colt",
+      "tier": "B",
+      "category": "",
+      "counters": [
+        "Piper",
+        "Belle",
+        "Gus",
+        "Nani",
+        "Stu",
+        "Max",
+        "Mortis"
+      ]
+    },
+    {
+      "name": "Cordelius",
+      "tier": "B",
+      "category": "",
+      "counters": [
+        "Frank",
+        "Buster",
+        "Surge",
+        "Nita"
+      ]
+    },
+    {
+      "name": "Crow",
+      "tier": "B",
+      "category": "",
+      "counters": [
+        "Piper",
+        "Spike",
+        "Tank"
+      ]
+    },
+    {
+      "name": "Darryl",
+      "tier": "A",
+      "category": "",
+      "counters": [
+        "Cordelius",
+        "Otis",
+        "Clancy"
+      ]
+    },
+    {
+      "name": "Doug",
+      "tier": "D",
+      "category": "",
+      "counters": [
+        "Frank",
+        "Clancy",
+        "Griff"
+      ]
+    },
+    {
+      "name": "Draco",
+      "tier": "B",
+      "category": "",
+      "counters": [
+        "Lou",
+        "Nita",
+        "Frank"
+      ]
+    },
+    {
+      "name": "Dynamike",
+      "tier": "B",
+      "category": "",
+      "counters": [
+        "Mico",
+        "Mortis",
+        "Kenji",
+        "Edgar"
+      ]
+    },
+    {
+      "name": "Edgar",
+      "tier": "C",
+      "category": "",
+      "counters": [
+        "Surge",
+        "Doug",
+        "Jacky",
+        "Shelly"
+      ]
+    },
+    {
+      "name": "El Primo",
+      "tier": "C",
+      "category": "",
+      "counters": [
+        "Cordelius",
+        "Gale",
+        "Shelly"
+      ]
+    },
+    {
+      "name": "Emz",
+      "tier": "B",
+      "category": "",
+      "counters": [
+        "Mortis",
+        "Barley",
+        "Juju",
+        "Larry",
+        "Janet"
+      ]
+    },
+    {
+      "name": "Eve",
+      "tier": "A",
+      "category": "",
+      "counters": [
+        "Piper",
+        "Penny",
+        "Janet",
+        "Max"
+      ]
+    },
+    {
+      "name": "Fang",
+      "tier": "C",
+      "category": "",
+      "counters": [
+        "Clancy",
+        "Otis",
+        "Shelly",
+        "Gale"
+      ]
+    },
+    {
+      "name": "Frank",
+      "tier": "S",
+      "category": "",
+      "counters": [
+        "Antitank",
+        "Primo"
+      ]
+    },
+    {
+      "name": "Gale",
+      "tier": "B",
+      "category": "",
+      "counters": [
+        "Janet",
+        "Amber",
+        "Thrower",
+        "Penny"
+      ]
+    },
+    {
+      "name": "Gene",
+      "tier": "S",
+      "category": "",
+      "counters": [
+        "Mr. P",
+        "Penny",
+        "Tara",
+        "Eve",
+        "Charlie",
+        "Belle"
+      ]
+    },
+    {
+      "name": "Gray",
+      "tier": "A",
+      "category": "",
+      "counters": [
+        "Mr. P",
+        "Charlie",
+        "Gus"
+      ]
+    },
+    {
+      "name": "Griff",
+      "tier": "A",
+      "category": "",
+      "counters": [
+        "Lola",
+        "Stu",
+        "Bea"
+      ]
+    },
+    {
+      "name": "Grom",
+      "tier": "C",
+      "category": "",
+      "counters": [
+        "Mico",
+        "Mortis",
+        "Assasin"
+      ]
+    },
+    {
+      "name": "Gus",
+      "tier": "S",
+      "category": "",
+      "counters": [
+        "Piper",
+        "Mr. P",
+        "Darryl"
+      ]
+    },
+    {
+      "name": "Hank",
+      "tier": "C",
+      "category": "",
+      "counters": [
+        "Dynamike",
+        "Frank",
+        "Gale"
+      ]
+    },
+    {
+      "name": "Jacky",
+      "tier": "C",
+      "category": "",
+      "counters": [
+        "Frank",
+        "Gale",
+        "Rosa"
+      ]
+    },
+    {
+      "name": "Janet",
+      "tier": "B",
+      "category": "",
+      "counters": [
+        "Frank",
+        "Carl",
+        "Kenji",
+        "Belle"
+      ]
+    },
+    {
+      "name": "Jessie",
+      "tier": "B",
+      "category": "",
+      "counters": [
+        "Thrower",
+        "Belle",
+        "Squeak"
+      ]
+    },
+    {
+      "name": "Juju",
+      "tier": "S",
+      "category": "",
+      "counters": [
+        "Frank",
+        "Tick",
+        "Larry",
+        "Wallbreaker"
+      ]
+    },
+    {
+      "name": "Kenji",
+      "tier": "A",
+      "category": "",
+      "counters": [
+        "Frank",
+        "Draco",
+        "Primo"
+      ]
+    },
+    {
+      "name": "Kit",
+      "tier": "A",
+      "category": "",
+      "counters": [
+        "Charlie",
+        "Cordelius",
+        "R-T",
+        "Chester"
+      ]
+    },
+    {
+      "name": "Larry",
+      "tier": "A",
+      "category": "",
+      "counters": [
+        "Tick",
+        "Edgar",
+        "Kenji"
+      ]
+    },
+    {
+      "name": "Leon",
+      "tier": "C",
+      "category": "",
+      "counters": [
+        "Crow",
+        "Stu",
+        "Pearl"
+      ]
+    },
+    {
+      "name": "Lily",
+      "tier": "B",
+      "category": "",
+      "counters": [
+        "R-T",
+        "Jacky",
+        "Bull",
+        "Shelly"
+      ]
+    },
+    {
+      "name": "Lola",
+      "tier": "B",
+      "category": "",
+      "counters": [
+        "Belle",
+        "Penny",
+        "Amber"
+      ]
+    },
+    {
+      "name": "Lou",
+      "tier": "S",
+      "category": "",
+      "counters": [
+        "Belle",
+        "Bea",
+        "Bo",
+        "Poco",
+        "Thrower"
+      ]
+    },
+    {
+      "name": "Maisie",
+      "tier": "S",
+      "category": "",
+      "counters": [
+        "Barley",
+        "Stu",
+        "Belle",
+        "Penny"
+      ]
+    },
+    {
+      "name": "Mandy",
+      "tier": "B",
+      "category": "",
+      "counters": [
+        "Nani",
+        "Tick",
+        "Mortis",
+        "Thrower"
+      ]
+    },
+    {
+      "name": "Max",
+      "tier": "S",
+      "category": "",
+      "counters": [
+        "Crow",
+        "Gus",
+        "Pam",
+        "Stu"
+      ]
+    },
+    {
+      "name": "Meeple",
+      "tier": "C",
+      "category": "",
+      "counters": [
+        "Kenji",
+        "Frank",
+        "Ash"
+      ]
+    },
+    {
+      "name": "Meg",
+      "tier": "C",
+      "category": "",
+      "counters": [
+        "Collete",
+        "Lou",
+        "Lola",
+        "Bea"
+      ]
+    },
+    {
+      "name": "Melodie",
+      "tier": "A",
+      "category": "",
+      "counters": [
+        "Clancy",
+        "Cordelius",
+        "Buzz"
+      ]
+    },
+    {
+      "name": "Mico",
+      "tier": "D",
+      "category": "",
+      "counters": [
+        "R-T",
+        "Bull",
+        "Stu"
+      ]
+    },
+    {
+      "name": "Moe",
+      "tier": "C",
+      "category": "",
+      "counters": [
+        "Penny",
+        "Darryl",
+        "Larry"
+      ]
+    },
+    {
+      "name": "Mortis",
+      "tier": "B",
+      "category": "",
+      "counters": [
+        "Jacky",
+        "Shade",
+        "Bull",
+        "Gale",
+        "Shelly"
+      ]
+    },
+    {
+      "name": "Mr. P",
+      "tier": "D",
+      "category": "",
+      "counters": [
+        "Edgar",
+        "Mortis",
+        "Bibi"
+      ]
+    },
+    {
+      "name": "Nani",
+      "tier": "B",
+      "category": "",
+      "counters": [
+        "Gene",
+        "Max",
+        "Darryl",
+        "Tick"
+      ]
+    },
+    {
+      "name": "Nita",
+      "tier": "A",
+      "category": "",
+      "counters": [
+        "Larry",
+        "Barley",
+        "Juju",
+        "Willow",
+        "Spike",
+        "Griff"
+      ]
+    },
+    {
+      "name": "Otis",
+      "tier": "B",
+      "category": "",
+      "counters": [
+        "Barley",
+        "Juju",
+        "Larry",
+        "Stu",
+        "Amber"
+      ]
+    },
+    {
+      "name": "Pam",
+      "tier": "D",
+      "category": "",
+      "counters": [
+        "Jessie",
+        "Lou",
+        "8-Bit",
+        "Collete"
+      ]
+    },
+    {
+      "name": "Pearl",
+      "tier": "A",
+      "category": "",
+      "counters": [
+        "Lou",
+        "8-Bit",
+        "Buster"
+      ]
+    },
+    {
+      "name": "Penny",
+      "tier": "S",
+      "category": "",
+      "counters": [
+        "Thrower",
+        "Squeak",
+        "Kenji",
+        "Bo"
+      ]
+    },
+    {
+      "name": "Piper",
+      "tier": "A",
+      "category": "",
+      "counters": [
+        "Nani",
+        "Tick",
+        "Kit",
+        "Kenji"
+      ]
+    },
+    {
+      "name": "Poco",
+      "tier": "A",
+      "category": "",
+      "counters": [
+        "Emz",
+        "Mortis",
+        "Jessie"
+      ]
+    },
+    {
+      "name": "R-T",
+      "tier": "A",
+      "category": "",
+      "counters": [
+        "Thrower",
+        "Gus",
+        "Max",
+        "Bo"
+      ]
+    },
+    {
+      "name": "Rico",
+      "tier": "S",
+      "category": "",
+      "counters": [
+        "Thrower",
+        "Brock",
+        "Piper",
+        "Stu"
+      ]
+    },
+    {
+      "name": "Rosa",
+      "tier": "C",
+      "category": "",
+      "counters": [
+        "Emz",
+        "Frank",
+        "Antitank"
+      ]
+    },
+    {
+      "name": "Ruffs",
+      "tier": "C",
+      "category": "",
+      "counters": [
+        "Buzz",
+        "Carl",
+        "Sprout",
+        "Assasin"
+      ]
+    },
+    {
+      "name": "Sam",
+      "tier": "C",
+      "category": "",
+      "counters": [
+        "Surge",
+        "Lou",
+        "Griff"
+      ]
+    },
+    {
+      "name": "Sandy",
+      "tier": "A",
+      "category": "",
+      "counters": [
+        "Nita",
+        "Janet",
+        "Kenji",
+        "Larry"
+      ]
+    },
+    {
+      "name": "Shade",
+      "tier": "C",
+      "category": "",
+      "counters": [
+        "Frank",
+        "Lou",
+        "Jacky"
+      ]
+    },
+    {
+      "name": "Shelly",
+      "tier": "C",
+      "category": "",
+      "counters": [
+        "Stu",
+        "Nita",
+        "Spike",
+        "Penny",
+        "Otis"
+      ]
+    },
+    {
+      "name": "Spike",
+      "tier": null,
+      "category": "",
+      "counters": [
+        "Thrower",
+        "Squeak",
+        "Carl",
+        "Piper"
+      ]
+    },
+    {
+      "name": "Sprout",
+      "tier": "B",
+      "category": "",
+      "counters": [
+        "Mico",
+        "Mortis",
+        "Edgar",
+        "Frank"
+      ]
+    },
+    {
+      "name": "Squeak",
+      "tier": "B",
+      "category": "",
+      "counters": [
+        "Assasin",
+        "Ash"
+      ]
+    },
+    {
+      "name": "Stu",
+      "tier": "S",
+      "category": "",
+      "counters": [
+        "Healer",
+        "Sniper",
+        "Ruffs",
+        "Penny",
+        "Sandy"
+      ]
+    },
+    {
+      "name": "Surge",
+      "tier": "S",
+      "category": "",
+      "counters": [
+        "Thrower",
+        "Ruffs",
+        "Tara",
+        "Charlie",
+        "Spike"
+      ]
+    },
+    {
+      "name": "Tara",
+      "tier": "B",
+      "category": "",
+      "counters": [
+        "Thrower",
+        "Otis",
+        "Sandy",
+        "Janet"
+      ]
+    },
+    {
+      "name": "Tick",
+      "tier": "A",
+      "category": "",
+      "counters": [
+        "Mico",
+        "Mortis",
+        "Darryl",
+        "Bibi"
+      ]
+    },
+    {
+      "name": "Willow",
+      "tier": "C",
+      "category": "",
+      "counters": [
+        "Barley",
+        "Larry",
+        "Buzz"
+      ]
+    }
+  ],
+  "maps": [
+    {
+      "name": "Last Stop",
+      "mode": "Gem Grab",
+      "indestructible_walls": false,
+      "first_pick": [
+        "Janet",
+        "Penny",
+        "Gene",
+        "8-Bit",
+        "Pearl",
+        "Amber"
+      ],
+      "last_pick": [
+        "Melodie",
+        "Ash",
+        "Squeak",
+        "Mortis",
+        "Darryl",
+        "Griff"
+      ],
+      "other_picks": [
+        "Lola",
+        "Stu",
+        "Max",
+        "Juju",
+        "Lou",
+        "Gus",
+        "Otis",
+        "Buster",
+        "Piper",
+        "Leon",
+        "Tara",
+        "Angelo",
+        "Byron",
+        "Carl",
+        "Kenji",
+        "Kit",
+        "Bo",
+        "Belle"
+      ],
+      "strategy": "The optimal brawler selections should prioritize vision gear utility, range advantage, and mid-lane control. The best choice for this map is Janet, as her vision gear allows her to dominate lanes by outranging many opponents. Her hypercharge charges extremely fast, giving her significant burst potential, especially against gem carriers, since she can pressure with aerial attacks and quickly eliminate threats. For mid-lane control, Penny is an excellent choice due to her range and splash damage, making her highly effective in controlling the map. Gene and 8-Bit are also strong picks in this role, as they scout efficiently with their projectiles and vision gear. Pearl and Amber are standard Gem Grab brawlers, excelling in sustained mid-lane fights. On long-range lanes, Lola is highly underrated, benefiting from vision gear to win most matchups. However, Penny and Amber can counter her effectively. Stu and Max require precise execution; Max, in particular, is punishing if not played optimally. Lou is viable both as a lane brawler and in mid, leveraging his reload speed and control abilities. Snipers like Piper remain viable as late picks, especially as counters to enemy gem carriers. However, they should be chosen strategically in later draft phases rather than as initial picks. For counterplay, Mortis, Darryl, and Squeak can be annoying but are not overpowered in this map. For the \"Undermine\" Gem Grab map, the best picks will vary, but the general principles of vision control, mid-lane dominance, and range advantage remain crucial for success."
+    },
+    {
+      "name": "Sneaky Fields",
+      "mode": "Bounty",
+      "indestructible_walls": false,
+      "first_pick": [
+        "Tara",
+        "Buzz",
+        "Bo",
+        "Gene",
+        "Sandy",
+        "Rosa"
+      ],
+      "last_pick": [
+        "Grom",
+        "Primo",
+        "Mr. P",
+        "Bull",
+        "Otis",
+        "Collete"
+      ],
+      "other_picks": [
+        "Doug",
+        "Lou",
+        "Shelly",
+        "Janet",
+        "Jacky",
+        "R-T",
+        "Frank",
+        "Surge",
+        "Gale",
+        "Chester",
+        "Nita",
+        "Amber",
+        "Griff",
+        "Emz",
+        "Rico",
+        "Kenji",
+        "Maisie"
+      ],
+      "strategy": "Los brawlers en fist pick tienen capacidad de ver en arbustos mediante gagdets o estelares. Aprovecha esto para identificar donde están los enemigos. Si hay muchos tanques, puede ser buena opción un antitanque, incluso alguno que pueda romper arbustos para evitar que se acerquen en este caso. En general hay dos estrategias, jugar con elementos que te den la visión o jugar a romper arbustos (por ejemplo con Amber) cuando hay brawlers que sin ellos no pueden hacer nada."
+    }
+  ]
+}
