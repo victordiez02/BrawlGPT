@@ -21,7 +21,8 @@ const ScrollToTop = () => {
 const App = () => {
   // Despertamos backend
   useEffect(() => {
-    fetch('https://brawlgpt-backend-762078704585.europe-west1.run.app/health')
+    const url = import.meta.env.VITE_BRAWLGPT_API_URL;
+    if (url) {fetch(`${url}/health`)}
   }, []);
 
   return (
