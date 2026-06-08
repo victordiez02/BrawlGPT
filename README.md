@@ -1,28 +1,30 @@
-<div align="center">
-  <img src="backend/images/Logo.png" alt="BrawlGPT" height="220" />
-
-  <h1>BrawlGPT</h1>
-
-  <p><strong>Asistente de drafts para Brawl Stars competitivo con recomendaciones generadas por IA.</strong></p>
-
-<p>
-  <a href="https://brawl-gpt.vercel.app/">
-    <img src="https://img.shields.io/badge/App%20web-FBCD29?style=for-the-badge&logoColor=black&labelColor=FBCD29" alt="App web" />
-  </a>
-  <a href="https://brawlgpt-backend-762078704585.europe-west1.run.app/docs">
-    <img src="https://img.shields.io/badge/Api-00A779?style=for-the-badge&logoColor=white&labelColor=00A779" alt="Api" />
-  </a>
+<p align="center">
+<img src="frontend/public/favicon.ico" alt="Kcalsculadora" width="100" />
 </p>
 
-  <p>
-    <img src="https://img.shields.io/badge/React-18-61dafb?logo=react&logoColor=white" />
-    <img src="https://img.shields.io/badge/TypeScript-5-3178c6?logo=typescript&logoColor=white" />
-    <img src="https://img.shields.io/badge/Vite-5-646cff?logo=vite&logoColor=white" />
-    <img src="https://img.shields.io/badge/Tailwind-3-38bdf8?logo=tailwindcss&logoColor=white" />
-    <img src="https://img.shields.io/badge/FastAPI-Python-009688?logo=fastapi&logoColor=white" />
-    <img src="https://img.shields.io/badge/Gemini-AI-4285F4?logo=google&logoColor=white" />
-  </p>
-</div>
+<h1 align="center">BrawlGPT</h1>
+
+<p align="center">
+Asistente de drafts para Brawl Stars competitivo con recomendaciones generadas por IA.
+</p>
+
+<p align="center">
+  <a href="https://kcalsculadora.vercel.app/"><img src="https://img.shields.io/badge/Abrir%20app-FBCD29?style=for-the-badge" alt="Abrir app"></a>
+  &nbsp;
+  <a href="https://kcalsculadora-backend-762078704585.europe-west1.run.app/docs"><img src="https://img.shields.io/badge/API%20docs-00A779?style=for-the-badge" alt="API docs"></a>
+</p>
+
+
+
+<p align="center">
+  <img src="https://img.shields.io/badge/React-18-61dafb?logo=react&logoColor=white" />
+  <img src="https://img.shields.io/badge/TypeScript-5-3178c6?logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/Vite-5-646cff?logo=vite&logoColor=white" />
+  <img src="https://img.shields.io/badge/Tailwind-3-38bdf8?logo=tailwindcss&logoColor=white" />
+  <img src="https://img.shields.io/badge/FastAPI-Python-009688?logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3.10+-3776AB?logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Gemini-AI-4285F4?logo=google&logoColor=white" />
+</p>
 
 ---
 
