@@ -33,7 +33,7 @@ const Footer = () => {
               <Mail size={14} /> {t("footer_contact")}
             </a>
             <a
-              href="https://github.com/victordiez/BrawlGPT"
+              href="https://github.com/victordiez02/BrawlGPT"
               target="_blank"
               rel="noreferrer"
               className="inline-flex items-center gap-2 rounded-full border-[3px] border-[hsl(var(--ink))] bg-card px-3 py-1 font-brawl text-xs uppercase tracking-wide text-foreground shadow-sticker-sm transition-transform hover:-translate-y-0.5"
