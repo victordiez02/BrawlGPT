@@ -1,20 +1,18 @@
 <p align="center">
-<img src="frontend/public/favicon.ico" alt="Kcalsculadora" width="100" />
+<img src="frontend/public/favicon.ico" alt="BrawlGPT" width="100" />
 </p>
 
 <h1 align="center">BrawlGPT</h1>
 
 <p align="center">
-Asistente de drafts para Brawl Stars competitivo con recomendaciones generadas por IA.
+Competitive Brawl Stars drafting assistant powered by Google Gemini.
 </p>
 
 <p align="center">
-  <a href="https://kcalsculadora.vercel.app/"><img src="https://img.shields.io/badge/Abrir%20app-FBCD29?style=for-the-badge" alt="Abrir app"></a>
+  <a href="https://brawl-gpt.vercel.app/"><img src="https://img.shields.io/badge/Open%20App-FBCD29?style=for-the-badge" alt="Open App"></a>
   &nbsp;
-  <a href="https://kcalsculadora-backend-762078704585.europe-west1.run.app/docs"><img src="https://img.shields.io/badge/API%20docs-00A779?style=for-the-badge" alt="API docs"></a>
+  <a href="https://brawlgpt-backend-762078704585.europe-west1.run.app/docs"><img src="https://img.shields.io/badge/API%20Docs-00A779?style=for-the-badge" alt="API Docs"></a>
 </p>
-
-
 
 <p align="center">
   <img src="https://img.shields.io/badge/React-18-61dafb?logo=react&logoColor=white" />
@@ -28,66 +26,86 @@ Asistente de drafts para Brawl Stars competitivo con recomendaciones generadas p
 
 ---
 
-## Qué es
+## Overview
 
-BrawlGPT analiza el estado de un draft de Brawl Stars (mapa, baneos, picks por equipo) y devuelve, en cada una de las 4 fases del draft, las mejores combinaciones de brawlers con una explicación en español e inglés.
+BrawlGPT analyzes the current state of a competitive Brawl Stars draft (map, bans and team picks) and generates recommendations for each draft phase.
 
-Está formado por dos piezas independientes:
+The application consists of two independent components:
 
-- **Frontend** — SPA en React + TypeScript con drag & drop, i18n (es/en), tema claro/oscuro y diseño inspirado en la estética del juego.
-- **API** — Servicio en FastAPI que construye el payload por fase y lo envía a **Google Gemini** con un `response_schema` estricto que garantiza respuestas JSON validadas.
+- **Frontend** — React + TypeScript single-page application featuring drag-and-drop interactions, internationalization (English and Spanish), light/dark themes, and a game-inspired interface.
+- **API** — FastAPI service that builds phase-specific prompts and communicates with Google Gemini using a strict `response_schema` to guarantee validated and structured JSON responses.
+
+---
+
+## Key Features
+
+- Real-time draft recommendations for all draft phases.
+- Structured Gemini outputs validated through Pydantic schemas.
+- Explanations available in both English and Spanish.
+- Interactive React frontend with drag-and-drop support.
+- FastAPI backend designed around a simple JSON API.
+
+---
 
 ## Demo
 
 <table>
   <tr>
-    <td><img src="frontend/public/resources/demos/Demo1.png" alt="Landing" /></td>
-    <td><img src="frontend/public/resources/demos/Demo2.png" alt="Draft en progreso" /></td>
+    <td><img src="frontend/public/resources/demos/Demo1.png" alt="Landing Page" /></td>
+    <td><img src="frontend/public/resources/demos/Demo2.png" alt="Draft Progress" /></td>
   </tr>
   <tr>
-    <td><img src="frontend/public/resources/demos/Demo3.png" alt="Recomendaciones IA" /></td>
-    <td><img src="frontend/public/resources/demos/Demo4.png" alt="Selección de brawlers" /></td>
+    <td><img src="frontend/public/resources/demos/Demo3.png" alt="AI Recommendations" /></td>
+    <td><img src="frontend/public/resources/demos/Demo4.png" alt="Brawler Selection" /></td>
   </tr>
 </table>
 
-## Cómo funciona
+---
 
-```
+## How It Works
+
+```text
 Frontend (React)
    │  POST /draft { phase, map, team, banned, picks }
    ▼
 API (FastAPI)
-   │  build_user_message()        → JSON con el estado mínimo del draft
-   │  build_system_instruction()  → reglas específicas de la fase (1-4)
-   │  call_gemini()               → llamada con response_schema
+   │  Build draft context
+   │  Generate phase-specific instructions
+   │  Request recommendations from Gemini
    ▼
-{ gemini_suggestions: [ { brawlers, probability, explanationESP, explanationUSA } ] }
+Structured JSON response
 ```
 
-Cada fase se envía a Gemini de forma autocontenida: solo recibe lo accionable (mapa, brawlers disponibles, counters relevantes y picks ya realizados).
+Each draft phase is processed independently. Gemini only receives the information required to make recommendations, including the selected map, available brawlers, relevant counters, and current picks.
 
-## Estructura
+---
 
-```
+## Project Structure
+
+```text
 brawlgpt/
 ├── frontend/   React + Vite + TypeScript + Tailwind
 └── backend/    FastAPI + Pydantic v2 + Google Gemini
 ```
 
-Cada subproyecto tiene su propio README con detalles técnicos y de despliegue:
+Additional implementation details can be found in:
 
-- [frontend/README.md](frontend/README.md)
-- [backend/README.md](backend/README.md)
+- frontend/README.md
+- backend/README.md
 
-## Stack
+---
 
-| Capa     | Tecnologías                                              |
-| -------- | -------------------------------------------------------- |
+## Tech Stack
+
+| Layer | Technologies |
+|---------|---------|
 | Frontend | React 18, TypeScript, Vite, Tailwind, shadcn/ui, i18next |
-| API      | Python 3.11, FastAPI, Pydantic v2, google-genai (Gemini) |
-| Deploy   | Render (frontend estático + API en contenedor)           |
+| Backend | Python 3.11, FastAPI, Pydantic v2, Google Gemini |
+| Deployment | Render (static frontend + containerized API) |
 
-## Ejemplo de llamada
+---
+
+## API Example
 
 ```http
 POST /draft
@@ -116,5 +134,7 @@ POST /draft
 ---
 
 <div align="center">
-  <sub>Desarrollado por <strong>Víctor Díez</strong> · Proyecto no afiliado a Supercell. Brawl Stars y sus activos pertenecen a Supercell — ver <a href="https://supercell.com/en/fan-content-policy/">Fan Content Policy</a>.</sub>
+  <sub>
+    Developed by <strong>Víctor Díez</strong>. This project is not affiliated with Supercell. Brawl Stars and related assets are property of Supercell.
+  </sub>
 </div>

@@ -7,11 +7,11 @@ const STORAGE_KEY = "brawlgpt:lang";
 type Lang = "en" | "es";
 
 const detectInitialLanguage = (): Lang => {
-  if (typeof window === "undefined") return "es";
+  if (typeof window === "undefined") return "en";
   const stored = window.localStorage.getItem(STORAGE_KEY);
   if (stored === "en" || stored === "es") return stored;
   const browser = window.navigator.language?.slice(0, 2);
-  return browser === "en" ? "en" : "es";
+  return browser === "es" ? "es" : "en";
 };
 
 i18n.use(initReactI18next).init({
@@ -20,7 +20,7 @@ i18n.use(initReactI18next).init({
     es: { translation: es },
   },
   lng: detectInitialLanguage(),
-  fallbackLng: "es",
+  fallbackLng: "en",
   interpolation: { escapeValue: false },
 });
 
